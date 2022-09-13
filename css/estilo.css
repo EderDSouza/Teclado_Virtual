@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#tela {
+    background-color: aquamarine;
+    text-align: center;
+    height: auto;
+}
+#container_div{
+    display: flex;
+    justify-content: center;
+    
+}
