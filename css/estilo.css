@@ -20,8 +20,11 @@
 }
 table{
     text-align: center;
+
 }
 td{
     height: 30px;
     width: 30px;
+    background: black;
+    color: white;
 }

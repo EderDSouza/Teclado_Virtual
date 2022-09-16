@@ -10,66 +10,70 @@
 </head>
 <body>
     <header id="tela">
-        <div id="tela-resposta">Tela para escrever</div>
+        <div id="tela-resposta" value="q1">Tela para escrever</div>
     </header>
     <main id="container_teclado">
         <div id="container_div">
         <table border="1">
             <tr>
                 
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
-                <td>5</td>
-                <td>6</td>
-                <td>7</td>     
-                <td>8</td>
-                <td>9</td>
-                <td>0</td>
+                <td><button >1</button></td>
+                <td><button>2</button></td>
+                <td><button>3</button></td>
+                <td><button>4</button></td>
+                <td><button>5</button></td>
+                <td><button>6</button></td>
+                <td><button>7</button></td>     
+                <td><button>8</button></td>
+                <td><button>9</button></td>
+                <td><button>0</button></td>
+                <td colspan="2">voltar</td>
             </tr>
             <tr>
-                <td rowspan="2"></td>
-                <td>Q</td>
-                <td>W</td>
-                <td>E</td>
-                <td>R</td>
-                <td>T</td>
-                <td>Y</td>
-                <td>U</td>
-                <td>I</td>
-                <td>O</td>
-                <td>P</td>
+                <td rowspan="3"><button>shift</button></td>
+                <td><button class="botoes" type="button" onclick="clicar('Q')">Q</button></td>
+                <td><button class="botoes" type="button" onclick="clicar('W')">W</button></td>
+                <td><button class="botoes" type="button" onclick="clicar('E')">E</button></td>
+                <td><button class="botoes" type="button" onclick="clicar('R')">R</button></td>
+                <td><button class="botoes" type="button" onclick="clicar('T')">T</button></td>
+                <td><button class="botoes" type="button" onclick="clicar('Y')">Y</button></td>
+                <td><button class="botoes" type="button" onclick="clicar('U')">U</button></td>
+                <td><button class="botoes" type="button" onclick="clicar('I')">I</button></td>
+                <td><button class="botoes" type="button" onclick="clicar('O')">O</button></td>
+                <td><button class="botoes" type="button" onclick="clicar('P')">P</button></td>
+                <td rowspan="3"><button class="botoes" type="button" >enter</button></td>
+            </tr>
+            <tr>
+                <td><button class="botoes" type="button" onclick="clicar('A')">A</button></td>
+                <td><button class="botoes" type="button" onclick="clicar('S')">S</button></td>
+                <td><button class="botoes" type="button" onclick="clicar('D')">D</button></td>
+                <td><button class="botoes" type="button" onclick="clicar('F')">F</button></td>
+                <td><button class="botoes" type="button" onclick="clicar('G')">G</button></td>
+                <td><button class="botoes" type="button" onclick="clicar('H')">H</button></td>
+                <td><button class="botoes" type="button" onclick="clicar('J')">J</button></td>
+                <td><button class="botoes" type="button" onclick="clicar('K')">K</button></td>
+                <td><button class="botoes" type="button" onclick="clicar('L')">L</button></td>
+                <td><button class="botoes" type="button" onclick="clicar('Ç')">Ç</button></td>
+               
             </tr>
             <tr>
                 
-                <td>A</td>
-                <td>S</td>
-                <td>D</td>
-                <td>F</td>
-                <td>G</td>
-                <td>H</td>
-                <td>J</td>
-                <td>K</td>
-                <td>L</td>
-                <td>Ç</td>
+                <td><button class="botoes" type="button" onclick="clicar('Z')">Z</button></td>
+                <td><button class="botoes" type="button" onclick="clicar('X')">X</button></td>
+                <td><button class="botoes" type="button" onclick="clicar('C')">C</button></td>
+                <td><button class="botoes" type="button" onclick="clicar('V')">V</button></td>
+                <td><button class="botoes" type="button" onclick="clicar('B')">B</button></td>
+                <td><button class="botoes" type="button" onclick="clicar('N')">N</button></td>
+                <td><button class="botoes" type="button" onclick="clicar('M')">M</button></td>
+                <td><button class="botoes" type="button" onclick="clicar(',')">,</button></td>
+                <td><button class="botoes" type="button" onclick="clicar('.')">.</button></td>
+                <td><button>;:</button></td>
+                
             </tr>
             <tr>
-                <td rowspan="2">shift</td>
-                <td>Z</td>
-                <td>X</td>
-                <td>C</td>
-                <td>V</td>
-                <td>B</td>
-                <td>N</td>
-                <td>M</td>
-                <td>,</td>
-                <td>.</td>
-                <td>;</td>
-            </tr>
-            <tr>
-                <td>CTRL</td>
-                <td colspan="9">espaço</td>
+                <td><button>CTRL</button></td>
+                <td colspan="10"><button>espaço</button></td>
+                <td><button>shifit</button></td>
             </tr>
 
         </table>
