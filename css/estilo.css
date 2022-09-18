@@ -18,6 +18,12 @@
     justify-content: center;
     
 }
+.botoes{
+    width: 30px;
+    height: 30px;
+    background: black;
+    color: white;
+}
 table{
     text-align: center;
 
