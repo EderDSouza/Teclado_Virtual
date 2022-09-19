@@ -1,36 +1,60 @@
 * {
     margin: 0;
     padding: 0;
+
 }
+
 #tela {
-    background-color: aquamarine;
-    text-align: center;
+    
+    line-height: center;
+    text-align: left;
     height: auto;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
     
 }
 #tela-resposta{
     width: auto;
-    height: 100pt;
+    height: auto;
+
 }
 #container_div{
+   margin-top: 100px;
     display: flex;
     justify-content: center;
+
     
 }
 .botoes{
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     background: black;
     color: white;
+    font-size: 1.5em;
+}
+header{
+    width: 800px;
+    margin-left: 300px;
+    background-color: rgb(218, 211, 211);
+
 }
 table{
     text-align: center;
 
 }
 td{
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
+   
+}
+
+/* botoes especiais*/
+
+.btnVoltar, .btnEspaco, .btnFixa ,.btnEnter{
+    width: 100%;
+    height: 100%;
     background: black;
     color: white;
 }
+
+
